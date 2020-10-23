@@ -1,0 +1,26 @@
+{
+  "name": "helloworldui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "dependencies": {
+    "@pact-foundation/pact": "^9.13.0",
+    "jest": "^26.6.1",
+    "node-fetch": "^2.6.1"
+  },
+  "devDependencies": {
+    "@babel/plugin-transform-modules-commonjs": "^7.12.1",
+    "jest-pact": "^0.8.1"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "ktogias",
+  "license": "ISC",
+  "jest": {
+    "moduleDirectories": [
+      "node_modules",
+      "app"
+    ]
+  }
+}
